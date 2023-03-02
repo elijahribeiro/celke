@@ -1,8 +1,23 @@
-const btn = document.querySelector(".menu_on");
-const menuMobile = document.querySelector(".menu_mobile");
+function toque(){
 
-btn_on.addEventListener("click", () => {
+	document.getElementById('menu_mobile')
+	.style.display='flex'
 
-	btn_on.ClassList.toggle("active");
-	menu_mobile.ClassList.toggle("active");
-})
+	document.getElementById('btn_on')
+	.style.display='none'
+
+	document.getElementById('btn_off')
+	.style.display='inline'
+}
+
+function toqueoff(){
+	
+    document.getElementById('btn_off')
+    .style.display='none'
+
+	document.getElementById('menu_mobile')
+	.style.display='none'
+
+	document.getElementById('btn_on')
+	.style.display='inline'
+}

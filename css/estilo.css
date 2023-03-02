@@ -72,7 +72,7 @@ div.menu ul{
 
 /*----------Menu Responsivel----------*/
 
-div.menu_mobile{
+div#menu_mobile{
 
 	display: flex;
 	gap: 10px;
@@ -83,7 +83,7 @@ div.menu_mobile{
 	display: none;
 }
 
-div.menu_mobile ul{
+div#menu_mobile ul{
 
 	display: flex;
 	list-style: none;
@@ -91,19 +91,19 @@ div.menu_mobile ul{
 	flex-direction: column;
 }
 
-div.menu_mobile ul li a{
+div#menu_mobile ul li a{
 
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.6rem;
 }
 
-div.menu_mobile ul li a:hover{
+div#menu_mobile ul li a:hover{
 
 	color: #007bff;
 }
 
-div.menu_mobile a.botao{
+div#menu_mobile a.botao{
 
 	text-decoration: none;
 	border: 1px solid #007bff;
@@ -113,7 +113,7 @@ div.menu_mobile a.botao{
 	transition-duration: 0.3s;
 }
 
-div.menu_mobile a.botao:hover{
+div#menu_mobile a.botao:hover{
 
 	background-color: #007bff;
 	color: #fff;

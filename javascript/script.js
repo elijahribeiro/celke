@@ -1,4 +1,1 @@
-function toque(){
-
-	alert("olá")
-}
+alert("olá")
